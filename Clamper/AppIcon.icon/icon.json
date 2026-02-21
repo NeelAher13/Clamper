@@ -1,0 +1,119 @@
+{
+  "fill" : "automatic",
+  "groups" : [
+    {
+      "blur-material-specializations" : [
+        {
+          "value" : null
+        },
+        {
+          "appearance" : "light",
+          "value" : null
+        },
+        {
+          "appearance" : "dark",
+          "value" : null
+        },
+        {
+          "appearance" : "tinted",
+          "value" : null
+        }
+      ],
+      "layers" : [
+        {
+          "fill-specializations" : [
+            {
+              "appearance" : "dark",
+              "value" : {
+                "solid" : "display-p3:0.45957,0.50000,0.38189,1.00000"
+              }
+            },
+            {
+              "appearance" : "tinted",
+              "value" : {
+                "solid" : "extended-gray:1.00000,1.00000"
+              }
+            }
+          ],
+          "glass" : true,
+          "image-name" : "Clamper-Main.png",
+          "name" : "Clamper-Main"
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "specular" : false,
+      "translucency-specializations" : [
+        {
+          "value" : {
+            "enabled" : true,
+            "value" : 0.5
+          }
+        },
+        {
+          "appearance" : "light",
+          "value" : {
+            "enabled" : false,
+            "value" : 0.2
+          }
+        },
+        {
+          "appearance" : "dark",
+          "value" : {
+            "enabled" : true,
+            "value" : 0.2
+          }
+        },
+        {
+          "appearance" : "tinted",
+          "value" : {
+            "enabled" : true,
+            "value" : 0.2
+          }
+        }
+      ]
+    },
+    {
+      "blur-material" : null,
+      "layers" : [
+        {
+          "hidden-specializations" : [
+            {
+              "value" : false
+            },
+            {
+              "appearance" : "light",
+              "value" : false
+            },
+            {
+              "appearance" : "dark",
+              "value" : true
+            },
+            {
+              "appearance" : "tinted",
+              "value" : true
+            }
+          ],
+          "image-name" : "Clamper-Background.png",
+          "name" : "Clamper-Background"
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "specular" : false,
+      "translucency" : {
+        "enabled" : false,
+        "value" : 0.2
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "squares" : [
+      "macOS"
+    ]
+  }
+}

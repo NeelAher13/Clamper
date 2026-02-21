@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E91685D22F4A4D7A009FFB8F /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = E91685D12F4A4D7A009FFB8F /* Sparkle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E91685A92F4A4D7A009FFB8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E91685932F4A4D79009FFB8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E916859A2F4A4D79009FFB8F;
+			remoteInfo = Clamper;
+		};
+		E91685B32F4A4D7A009FFB8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E91685932F4A4D79009FFB8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E916859A2F4A4D79009FFB8F;
+			remoteInfo = Clamper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E916859B2F4A4D79009FFB8F /* Clamper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clamper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91685A82F4A4D7A009FFB8F /* ClamperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClamperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91685B22F4A4D7A009FFB8F /* ClamperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClamperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E91685D32F4A4D7A009FFB8F /* Exceptions for "Clamper" folder in "Clamper" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E916859A2F4A4D79009FFB8F /* Clamper */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E916859D2F4A4D79009FFB8F /* Clamper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E91685D32F4A4D7A009FFB8F /* Exceptions for "Clamper" folder in "Clamper" target */,
+			);
+			path = Clamper;
+			sourceTree = "<group>";
+		};
+		E91685AB2F4A4D7A009FFB8F /* ClamperTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ClamperTests;
+			sourceTree = "<group>";
+		};
+		E91685B52F4A4D7A009FFB8F /* ClamperUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ClamperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E91685982F4A4D79009FFB8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91685D22F4A4D7A009FFB8F /* Sparkle in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91685A52F4A4D7A009FFB8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91685AF2F4A4D7A009FFB8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E91685922F4A4D79009FFB8F = {
+			isa = PBXGroup;
+			children = (
+				E916859D2F4A4D79009FFB8F /* Clamper */,
+				E91685AB2F4A4D7A009FFB8F /* ClamperTests */,
+				E91685B52F4A4D7A009FFB8F /* ClamperUITests */,
+				E916859C2F4A4D79009FFB8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E916859C2F4A4D79009FFB8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E916859B2F4A4D79009FFB8F /* Clamper.app */,
+				E91685A82F4A4D7A009FFB8F /* ClamperTests.xctest */,
+				E91685B22F4A4D7A009FFB8F /* ClamperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E916859A2F4A4D79009FFB8F /* Clamper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91685BC2F4A4D7A009FFB8F /* Build configuration list for PBXNativeTarget "Clamper" */;
+			buildPhases = (
+				E91685972F4A4D79009FFB8F /* Sources */,
+				E91685982F4A4D79009FFB8F /* Frameworks */,
+				E91685992F4A4D79009FFB8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E916859D2F4A4D79009FFB8F /* Clamper */,
+			);
+			name = Clamper;
+			packageProductDependencies = (
+				E91685D12F4A4D7A009FFB8F /* Sparkle */,
+			);
+			productName = Clamper;
+			productReference = E916859B2F4A4D79009FFB8F /* Clamper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E91685A72F4A4D7A009FFB8F /* ClamperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91685BF2F4A4D7A009FFB8F /* Build configuration list for PBXNativeTarget "ClamperTests" */;
+			buildPhases = (
+				E91685A42F4A4D7A009FFB8F /* Sources */,
+				E91685A52F4A4D7A009FFB8F /* Frameworks */,
+				E91685A62F4A4D7A009FFB8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E91685AA2F4A4D7A009FFB8F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E91685AB2F4A4D7A009FFB8F /* ClamperTests */,
+			);
+			name = ClamperTests;
+			packageProductDependencies = (
+			);
+			productName = ClamperTests;
+			productReference = E91685A82F4A4D7A009FFB8F /* ClamperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E91685B12F4A4D7A009FFB8F /* ClamperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91685C22F4A4D7A009FFB8F /* Build configuration list for PBXNativeTarget "ClamperUITests" */;
+			buildPhases = (
+				E91685AE2F4A4D7A009FFB8F /* Sources */,
+				E91685AF2F4A4D7A009FFB8F /* Frameworks */,
+				E91685B02F4A4D7A009FFB8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E91685B42F4A4D7A009FFB8F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E91685B52F4A4D7A009FFB8F /* ClamperUITests */,
+			);
+			name = ClamperUITests;
+			packageProductDependencies = (
+			);
+			productName = ClamperUITests;
+			productReference = E91685B22F4A4D7A009FFB8F /* ClamperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E91685932F4A4D79009FFB8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					E916859A2F4A4D79009FFB8F = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					E91685A72F4A4D7A009FFB8F = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = E916859A2F4A4D79009FFB8F;
+					};
+					E91685B12F4A4D7A009FFB8F = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = E916859A2F4A4D79009FFB8F;
+					};
+				};
+			};
+			buildConfigurationList = E91685962F4A4D79009FFB8F /* Build configuration list for PBXProject "Clamper" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E91685922F4A4D79009FFB8F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E91685D02F4A4D7A009FFB8F /* XCRemoteSwiftPackageReference "Sparkle" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E916859C2F4A4D79009FFB8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E916859A2F4A4D79009FFB8F /* Clamper */,
+				E91685A72F4A4D7A009FFB8F /* ClamperTests */,
+				E91685B12F4A4D7A009FFB8F /* ClamperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E91685992F4A4D79009FFB8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91685A62F4A4D7A009FFB8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91685B02F4A4D7A009FFB8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E91685972F4A4D79009FFB8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91685A42F4A4D7A009FFB8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91685AE2F4A4D7A009FFB8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E91685AA2F4A4D7A009FFB8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E916859A2F4A4D79009FFB8F /* Clamper */;
+			targetProxy = E91685A92F4A4D7A009FFB8F /* PBXContainerItemProxy */;
+		};
+		E91685B42F4A4D7A009FFB8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E916859A2F4A4D79009FFB8F /* Clamper */;
+			targetProxy = E91685B32F4A4D7A009FFB8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E91685BA2F4A4D7A009FFB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = UUW59LGK2E;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E91685BB2F4A4D7A009FFB8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = UUW59LGK2E;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E91685BD2F4A4D7A009FFB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = UUW59LGK2E;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Clamper/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Clamper;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mertcandemir.Clamper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		E91685BE2F4A4D7A009FFB8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = UUW59LGK2E;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Clamper/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Clamper;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mertcandemir.Clamper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		E91685C02F4A4D7A009FFB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = UUW59LGK2E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mertcandemir.ClamperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clamper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Clamper";
+			};
+			name = Debug;
+		};
+		E91685C12F4A4D7A009FFB8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = UUW59LGK2E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mertcandemir.ClamperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clamper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Clamper";
+			};
+			name = Release;
+		};
+		E91685C32F4A4D7A009FFB8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = UUW59LGK2E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mertcandemir.ClamperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = Clamper;
+			};
+			name = Debug;
+		};
+		E91685C42F4A4D7A009FFB8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = UUW59LGK2E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mertcandemir.ClamperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = Clamper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E91685962F4A4D79009FFB8F /* Build configuration list for PBXProject "Clamper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91685BA2F4A4D7A009FFB8F /* Debug */,
+				E91685BB2F4A4D7A009FFB8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91685BC2F4A4D7A009FFB8F /* Build configuration list for PBXNativeTarget "Clamper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91685BD2F4A4D7A009FFB8F /* Debug */,
+				E91685BE2F4A4D7A009FFB8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91685BF2F4A4D7A009FFB8F /* Build configuration list for PBXNativeTarget "ClamperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91685C02F4A4D7A009FFB8F /* Debug */,
+				E91685C12F4A4D7A009FFB8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91685C22F4A4D7A009FFB8F /* Build configuration list for PBXNativeTarget "ClamperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91685C32F4A4D7A009FFB8F /* Debug */,
+				E91685C42F4A4D7A009FFB8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E91685D02F4A4D7A009FFB8F /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E91685D12F4A4D7A009FFB8F /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E91685D02F4A4D7A009FFB8F /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E91685932F4A4D79009FFB8F /* Project object */;
+}
